@@ -2,7 +2,7 @@ class Human
   attr_accessor :name,
                 :alertness,
                 :coffee
-                
+
   def initialize(name, alertness=0)
     self.name = name
     self.alertness = alertness
@@ -13,10 +13,6 @@ class Human
   end
   def needs_coffee?
     self.coffee.to_i == 0
-  end
-  def full?
-    coffee.to_i > 0
-    self.coffee = 1
   end
   def buy(coffee)
     self.coffee = coffee
