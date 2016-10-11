@@ -8,12 +8,7 @@ end
   number_of_drinks == 3
 
   end
-  def drink!
-    if number_of_drinks.to_i < 1
-      coffee="full"
-    end
 
-  end
   def empty?
     number_of_drinks == 0
   end
