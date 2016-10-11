@@ -21,7 +21,4 @@ class Human
     self.coffee.number_of_drinks -= 1
     self.alertness +=0.31
   end
-  def empty?
-    self.coffee < 0.1
-  end
 end
